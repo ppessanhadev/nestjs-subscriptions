@@ -24,8 +24,6 @@ export default function Card() {
     }
   }, [data]);
 
-  console.log(data);
-
   return (
     <div>
       { userInfos.map(({ id, name, age }) => (
