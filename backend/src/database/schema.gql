@@ -1,0 +1,24 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Product {
+  id: Int!
+  name: String!
+  stock: Int!
+  price: Float!
+}
+
+type UserInfo {
+  id: Int!
+  name: String!
+  age: Float!
+}
+
+type Query {
+  products: [Product!]!
+}
+
+type Subscription {
+  postReceived: UserInfo!
+}
